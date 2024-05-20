@@ -5,9 +5,9 @@ prompt.start();
 
 prompt.get(['age'], function (err,result) {
 
-if (result.age % 10 === 1 && result.age<=9)
+if (result.age % 10 === 1 )
     {console.log('Тобі' + " " + result.age + " " + "рік");}
-else if(result.age  >=11 && result.age <=19)
+else if(result.age  >=11 && result.age <=19 && result.age<=9 && result.age>=5)
     {console.log('Тобі' + " " + result.age + " " + "років");}
     else if(result.age % 10 >= 2 && result.age % 10 <=4)
         {console.log('Тобі' + " " + result.age + " " + "роки");}

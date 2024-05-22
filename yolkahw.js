@@ -14,7 +14,7 @@ function triangle(h, Symbol) {
 
 
 
-function tr(h,Symbol){
+function triangle1(h,Symbol){
     let a = '';
     
     for (let i = 0; i < h; i++){
@@ -24,5 +24,4 @@ function tr(h,Symbol){
    
 
 }}
-
-console.log(tr(8,'*'));
+console.log(triangle1(8,'*'));
